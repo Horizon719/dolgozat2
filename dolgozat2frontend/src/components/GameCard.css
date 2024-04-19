@@ -1,0 +1,32 @@
+.kerdesKartya{
+    border: 1px solid grey;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.kerdes{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.valaszok{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.valasz{
+    flex: 1 0 calc(50% - 20px); /* 20px margó mindkét oldalon */
+    margin: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    .valasz{
+        flex: 1 0 calc(100% - 20px);
+    }
+}
